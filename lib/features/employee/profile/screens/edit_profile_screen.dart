@@ -22,9 +22,9 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
   @override
   void initState() {
     super.initState();
-    _nameController.text = widget.isHR ? 'Priya Singh' : 'Rahul Kumar';
+    _nameController.text = widget.isHR ? 'Jane Doe' : 'Alex Smith';
     _phoneController.text = '+91 9876543210';
-    _emailController.text = widget.isHR ? 'priya.hr@hrm.com' : 'rahul.ui@hrm.com';
+    _emailController.text = widget.isHR ? 'jane.doe@hrm.com' : 'alex.smith@hrm.com';
   }
 
   @override

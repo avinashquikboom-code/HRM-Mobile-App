@@ -131,7 +131,7 @@ class ProfileScreen extends StatelessWidget {
                 ),
                 const SizedBox(height: 16),
                 Text(
-                  isHR ? 'Priya Singh' : 'Rahul Kumar',
+                  isHR ? 'Jane Doe' : 'Alex Smith',
                   style: const TextStyle(
                     color: Colors.white, 
                     fontSize: 26, 

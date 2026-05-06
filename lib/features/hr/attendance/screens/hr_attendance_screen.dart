@@ -78,10 +78,10 @@ class HRAttendanceScreen extends StatelessWidget {
 
   Widget _buildAttendanceList() {
     final records = [
-      {'name': 'Avinash Magar', 'time': '09:30 AM', 'status': 'On Time'},
-      {'name': 'Rahul Kumar', 'time': '10:15 AM', 'status': 'Late'},
-      {'name': 'Priya Singh', 'time': '09:15 AM', 'status': 'On Time'},
-      {'name': 'Amit Shah', 'time': '09:45 AM', 'status': 'On Time'},
+      {'name': 'John Doe', 'time': '09:30 AM', 'status': 'On Time'},
+      {'name': 'Alex Smith', 'time': '10:15 AM', 'status': 'Late'},
+      {'name': 'Jane Doe', 'time': '09:15 AM', 'status': 'On Time'},
+      {'name': 'Robert Brown', 'time': '09:45 AM', 'status': 'On Time'},
     ];
 
     return ListView.separated(

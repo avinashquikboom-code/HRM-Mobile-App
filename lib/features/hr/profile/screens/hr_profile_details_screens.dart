@@ -45,8 +45,8 @@ class PersonalInfoScreen extends StatelessWidget {
     return ProfileSubScreen(
       title: 'Personal Information',
       children: [
-        _buildInfoItem('Full Name', 'Priya Singh'),
-        _buildInfoItem('Email', 'priya.singh@hrm.com'),
+        _buildInfoItem('Full Name', 'Jane Doe'),
+        _buildInfoItem('Email', 'jane.doe@hrm.com'),
         _buildInfoItem('Phone', '+91 98765 43210'),
         _buildInfoItem('Designation', 'HR Manager'),
         _buildInfoItem('Department', 'Human Resources'),

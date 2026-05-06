@@ -85,7 +85,7 @@ class HRDashboardView extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                'Hello, Priya!',
+                'Hello, Jane!',
                 style: TextStyle(
                   fontSize: 22,
                   fontWeight: FontWeight.bold,
@@ -343,7 +343,7 @@ class HRDashboardView extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Avinash Magar',
+                      'John Doe',
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 14,

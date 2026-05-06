@@ -11,7 +11,7 @@ class NotificationsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final notifications = [
       {'title': 'Payroll Processed', 'time': '2h ago', 'icon': LucideIcons.wallet, 'desc': 'June payroll for 42 employees has been successfully processed.'},
-      {'title': 'Leave Request', 'time': '5h ago', 'icon': LucideIcons.calendar, 'desc': 'Avinash Magar has requested sick leave for 2 days.'},
+      {'title': 'Leave Request', 'time': '5h ago', 'icon': LucideIcons.calendar, 'desc': 'John Doe has requested sick leave for 2 days.'},
       {'title': 'Security Alert', 'time': 'Yesterday', 'icon': LucideIcons.shieldAlert, 'desc': 'New login detected from a Chrome browser on Windows.'},
       {'title': 'Attendance Update', 'time': '2 days ago', 'icon': LucideIcons.userCheck, 'desc': 'Attendance rules for the Design department have been updated.'},
     ];

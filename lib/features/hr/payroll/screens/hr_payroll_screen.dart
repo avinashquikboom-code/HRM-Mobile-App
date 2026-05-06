@@ -120,10 +120,10 @@ class HRPayrollScreen extends StatelessWidget {
 
   Widget _buildEmployeePayrollList() {
     final employees = [
-      {'name': 'Avinash Magar', 'role': 'Lead', 'amount': '₹85,000', 'status': 'Processed'},
-      {'name': 'Rahul Kumar', 'role': 'Designer', 'amount': '₹65,000', 'status': 'Pending'},
-      {'name': 'Priya Singh', 'role': 'HR', 'amount': '₹75,000', 'status': 'Processed'},
-      {'name': 'Amit Shah', 'role': 'Backend', 'amount': '₹70,000', 'status': 'Processed'},
+      {'name': 'John Doe', 'role': 'Lead', 'amount': '₹85,000', 'status': 'Processed'},
+      {'name': 'Alex Smith', 'role': 'Designer', 'amount': '₹65,000', 'status': 'Pending'},
+      {'name': 'Jane Doe', 'role': 'HR', 'amount': '₹75,000', 'status': 'Processed'},
+      {'name': 'Robert Brown', 'role': 'Backend', 'amount': '₹70,000', 'status': 'Processed'},
     ];
 
     return ListView.separated(
